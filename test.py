@@ -5,6 +5,7 @@ import sys
 from rich.markdown import Markdown
 from rich import print as rprint
 
+# load the model and tokenizer from the Hugging Face model hub
 model, tokenizer = load("mlx-community/Meta-Llama-3-8B-Instruct-4bit")
 
 def get_response(messages):
